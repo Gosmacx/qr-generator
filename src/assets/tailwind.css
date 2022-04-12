@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        @apply px-4 py-2 text-gray-100 rounded transition-colors hover:text-gray-600  hover:bg-gray-300
+    }
+}
+
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,500;1,800;1,900&display=swap');
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
