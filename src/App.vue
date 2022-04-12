@@ -56,7 +56,8 @@ export default {
   },
   methods:{
     createQR(){
-
+      if (!this.qrContent) return;
+      
       QRCode.toDataURL(this.qrContent)
       .then(url => {
         this.generatedQR = url
