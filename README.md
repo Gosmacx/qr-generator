@@ -17,4 +17,4 @@ Basic qr-generator application
 
 ## Screenshots
 
-![ss](https://gcdnb.pbrd.co/images/OKEtK5XFMX61.png?o=1)
+![ss](https://raw.githubusercontent.com/Gosmacx/qr-generator/main/screenshots/ss.png)
